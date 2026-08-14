@@ -1,0 +1,112 @@
+.site-header {
+    width: 1575px;
+    margin: 0 auto;
+    font-family: "Courier New", monospace;
+    font-size: 22.75px;
+}
+
+/* ─────────────────────────────
+Logo
+───────────────────────────── */
+
+.site-logo {
+    display: block;
+    object-fit: contain;
+    object-position: left center;
+}
+
+/* ─────────────────────────────
+Navigation
+───────────────────────────── */
+
+.site-header nav {
+    width: 100%;
+    height: 73.5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    overflow: hidden;
+}
+
+.site-header nav a {
+    display: block;
+    flex: 0 0 auto;
+
+    height: 63px;
+    line-height: 0;
+}
+
+.site-header nav img {
+    display: block;
+
+    width: auto;
+    height: 63px;
+
+    object-fit: contain;
+}
+
+/* Evita que los GIF tengan comportamientos raros */
+.site-header nav img {
+    max-width: none;
+}
+
+/* ─────────────────────────────
+Social / search / visits
+───────────────────────────── */
+
+.socials {
+    white-space: nowrap;
+}
+
+.socials a {
+    margin-right: 14px;
+}
+
+.search input {
+    width: 297.5px;
+    height: 38.5px;
+
+    padding: 3.5px 8.75px;
+
+    border: 1.75px solid #777;
+    border-radius: 0;
+
+    background: #fff;
+    color: #000;
+
+    font-family: inherit;
+    font-size: 21px;
+}
+
+.visits {
+    white-space: nowrap;
+    text-align: right;
+}
+
+/* ─────────────────────────────
+Old web style
+───────────────────────────── */
+
+.site-header a {
+    color: #0000ee;
+}
+
+.site-header a:visited {
+    color: #551a8b;
+}
+
+.site-header a:hover {
+    color: #ff0000;
+}
+
+.site-header table {
+    width: 1575px;
+    border-collapse: collapse;
+}
+
+.site-header td {
+    padding: 7px;
+    vertical-align: middle;
+}
