@@ -2,7 +2,7 @@ dist/
 .astro/
 node_modules/
 *.log
-./vscode/
+.vscode/
 .env
 .env.*
 !.env.sample
